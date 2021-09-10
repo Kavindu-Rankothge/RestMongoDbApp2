@@ -7,7 +7,6 @@ public class Address {
 	protected Address() {}
 
 	public Address(String city, String country) {
-		super();
 		this.city = city;
 		this.country = country;
 	}
