@@ -25,4 +25,4 @@ The completion of this project taught me:
   3. Using mongoDb query language to implement controller requests
   4. Deeper understanding of GetMapping/PostMapping/DeleteMapping requets
 
-In the future I plam to implement qureyDsl for stronger quries.
+In the future I plan to implement qureyDsl for stronger quries.
