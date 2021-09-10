@@ -1,4 +1,4 @@
-# RestMongoDbApp2
+# Rest MongoDb App
 
 Creating a intermediate springboot Rest application that uses MongoDB using 
 Romanian Coder tutorial. Link :https://www.youtube.com/watch?v=Hu-cyytqfp8&t=143s&ab_channel=RomanianCoder
@@ -25,3 +25,4 @@ The completion of this project taught me:
   3. Using mongoDb query language to implement controller requests
   4. Deeper understanding of GetMapping/PostMapping/DeleteMapping requets
 
+In the future I plam to implement qureyDsl for stronger quries.
