@@ -48,7 +48,7 @@ public class DbSeeder implements CommandLineRunner{
 		List<Hotel> hotels = Arrays.asList(marriot,kingsbury,sofie);
 		
 		//drop these tables if they exist
-		this.hotelRepository.deleteAll(hotels);
+		this.hotelRepository.deleteAll();
 		
 		//add our hotels to the db;		
 		this.hotelRepository.saveAll(hotels);		
