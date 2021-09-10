@@ -51,7 +51,7 @@ public class HotelController {
 	
 	@GetMapping("price/{maxPrice}")
 	public List<Hotel> getByPricePerNight(@PathVariable("maxPrice") int maxPrice){
-		List<Hotel> hotels = this.hotelRepository.findPricePerNightLessThan(maxPrice);
+		List<Hotel> hotels = this.hotelRepository.findByPricePerNightLessThan(maxPrice);
 		return hotels;		
 	}
 	

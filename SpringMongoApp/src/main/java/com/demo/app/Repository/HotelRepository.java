@@ -10,6 +10,6 @@ import com.demo.app.model.Hotel;
 @Repository
 public interface HotelRepository extends MongoRepository<Hotel,String>{
 	Hotel findByid(String id);
-	List<Hotel> findPricePerNightLessThan(int maxPrice);
+	List<Hotel> findByPricePerNightLessThan(int maxPrice);
 
 }
