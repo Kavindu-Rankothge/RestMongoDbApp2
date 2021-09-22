@@ -23,6 +23,7 @@ The completion of this project taught me:
   1. Dealing with mongoDb collections with multiple classes
   2. Using commandLineRunner to insert/delete data
   3. Using mongoDb query language to implement controller requests
-  4. Deeper understanding of GetMapping/PostMapping/DeleteMapping requets
+  4. Deeper understanding of GetMapping/PostMapping/DeleteMapping requests
 
 In the future, I plan to implement queryDSL for stronger queries.
+
